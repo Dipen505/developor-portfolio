@@ -13,7 +13,7 @@
 .btn-primary {
     height: 64px;
     padding: 18px 35px;
-    background-color: #FC6D0A;
+    background-color: royalblue;
     color: #ffff;
     font-size: 20px;
     font-weight: 700;
@@ -23,7 +23,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 nav ul li {
     list-style: none;
@@ -94,6 +94,7 @@ main {
 .info-title {
     font-size: 20px;
     color: #757575;
+    margin: 10px 0;
 }
 .info-desc {
     font-size: 20px;
@@ -101,7 +102,7 @@ main {
     color: #474747;
 }
 /* what-i-do-section */
-.what-i-do {
+.what-i-do,.resume-section,.resume {
     margin: 130px 0;
 }
 .skills-container {
@@ -127,44 +128,56 @@ main {
     /* margin-right: 24px; */
     padding: 35px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* my-own-practice-code */
-/* main {
-    margin: 130px 230px;
+/* resume-section */
+.resume-content {
+    display: flex;
+    gap: 71px;
 }
-.about-me-desc {
+.resume-item {
+    margin: 30px 0;
+}
+.resume-title {
+    font-size: 30px;
+    color: #474747;
+}
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+}
+.resume-item-subtitle {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.resume-item-desc {
     color: #757575;
     font-size: 18px;
 }
-.about-me {
-    background-color: #FFF8F3;
-    text-align: center;
-    padding: 130px 150px;
-}
-.about-me-title, .about-me-desc {
-    margin-bottom: 30px;
-}
-.information-box {
+
+/* contact-style */
+.contact {
     display: flex;
-    justify-content: space-between;
+    gap: 120px;
+    background: #FFF8F3;
 }
-.bottom-information {
-    font-size: 20px;
-    font-weight: 700;
-    color: #474747;
-} */
+.contact .section-title {
+    text-align: left;
+}
+.contact-desc {
+    margin: 30px 0;
+}
+.contact-box {
+    margin: 130px 150px;
+}
+.contact input[type="text"],input[type="email"],textarea {
+    margin-bottom: 24px;
+    border: 0;
+    padding: 18px 30px;
+    width: 100%;
+}
+input {
+    height: 64px;
+}
+.contact a {
+    text-decoration: none;
+}
